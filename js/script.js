@@ -7,7 +7,7 @@ const stampList = document.getElementById('stampa');
 let counter = 0;
 //3. 
 while(!(counter == listaSpesa.length)){
-    stampList.innerHTML += '<li>' + listaSpesa[counter] + '</li>';
+    stampList.innerHTML += `<li> ${listaSpesa[counter]} </li>`;
 
     counter++;
     console.log(listaSpesa);
